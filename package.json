@@ -1,6 +1,6 @@
 {
   "name": "generator-ims",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "description": "Generator for angularjs",
   "license": "MIT",
   "main": "app/index.js",
@@ -34,7 +34,12 @@
 
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0",
+    "gulp": "^3.9.1",
+    "gulp-ngdocs": "^0.2.13",
+    "gulp-connect": "^4.0.0"
   },
   "peerDependencies": {
     "yo": ">=1.0.0"
