@@ -27,7 +27,11 @@
   ],
   "dependencies": {
     "yeoman-generator": "~0.16.0",
-    "chalk": "~0.4.0"
+    "chalk": "~0.4.0",
+    "gulp": "^3.9.1",
+    "gulp-ngdocs": "^0.2.13",
+    "gulp-connect": "^4.0.0"
+
   },
   "devDependencies": {
     "mocha": "*"
