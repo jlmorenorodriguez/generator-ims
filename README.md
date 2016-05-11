@@ -1,7 +1,7 @@
 Documentation Generator-IMS
 =====================
 
--Process to use: 
+Process to use: 
 -----------------
 
 Install “gulp”, “gulp-ngdocs”, "gulp-connect" and "yeoman".
@@ -28,15 +28,15 @@ Install generator-ims
 
 ```
 
-Go to the folder "node_modules" and into it, go to the folder "generator-ims" and install the dependences of the generator with the next command:
-
-```
-					cd node_modules/generator-ims/
-
-					npm link
-``` 
 
 Then, create the "gulpfile.js" like https://github.com/jlmorenorodriguez/generator-ims/blob/master/gulpfile.js .
+
+
+The command for use the generator-ims is
+
+```
+					yo ims:component componentName
+```
 
 
 Finally, use the following command to generate and view the documentation:

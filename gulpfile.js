@@ -6,8 +6,8 @@ gulp.task('ngdocs', ['connect_ngdocs'], function () {
     /* pass both .min.js and .min.js.map files for angular and angular-animate */
     scripts: [
       //"src/app/prueba99/prueba99.js",
-      //"src/app/component1/component1.js"
-      'src/app/**/*.js'
+      "src/app/component1/e1.js"
+      //'src/app/**/*.js'
     ]
   };
   return gulp.src([
