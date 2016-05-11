@@ -29,6 +29,7 @@ Install generator-ims
 
 
 Then, create the "gulpfile.js" like https://github.com/jlmorenorodriguez/generator-ims/blob/master/gulpfile.js .
+Edit the options in the gulpfile so:
 
 ```
 					var options = {
