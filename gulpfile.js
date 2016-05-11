@@ -1,11 +1,14 @@
+(function () {
+
+'use strict';
+
 var gulp = require('gulp');
 
 gulp.task('ngdocs', ['connect_ngdocs'], function () {
   var gulpDocs = require('gulp-ngdocs');
   var options = {
-    /* pass both .min.js and .min.js.map files for angular and angular-animate */
     scripts: [
-      "src/app/component1/component1.js" // -> For instance
+      "src/app/componentName/componentName.js" // -> For instance
     ]
   };
   return gulp.src([
@@ -26,3 +29,4 @@ var connect = require('gulp-connect');
     port: 8083
   });
 });
+})();
