@@ -41,6 +41,6 @@ Then, create the "gulpfile.js" like https://github.com/jlmorenorodriguez/generat
 
 Finally, use the following command to generate and view the documentation:
 
-´´´
+```
 					gulp ngdocs
-´´´
+```
