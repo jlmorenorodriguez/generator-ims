@@ -33,7 +33,7 @@ Go to the folder "node_modules" and into it, go to the folder "generator-ims" an
 ```
 					cd node_modules/generator-ims/
 
-npm link
+					npm link
 ``` 
 
 Then, create the "gulpfile.js" like https://github.com/jlmorenorodriguez/generator-ims/blob/master/gulpfile.js .
