@@ -1,5 +1,6 @@
 (function () {
 
+
 'use strict';
 
 var gulp = require('gulp');
@@ -20,6 +21,7 @@ gulp.task('ngdocs', ['connect_ngdocs'], function () {
     .pipe(gulp.dest('docs'));
    
 });
+
 gulp.task('connect_ngdocs', function() {
 var connect = require('gulp-connect');
   connect.server({

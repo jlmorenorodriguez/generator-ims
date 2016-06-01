@@ -1,6 +1,5 @@
 (function() {
 
-
   /**
     @ngdoc overview
     @id <%= componentModuleName %>
